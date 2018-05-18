@@ -1,12 +1,12 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background-image:url(/export/etu/alexandre.lecoustre/Documents/pujadas.jpg)
 }
 
 #header
 {
-	background: #ccc;
+	background: red;
 	padding: 20px;
 }
 
@@ -16,7 +16,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: brown;
 }
 
 #navigation ul
@@ -41,7 +41,7 @@
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background: brown; }
 
 #edito
 {
@@ -50,11 +50,9 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #ffffff;
+	-webkit-box-shadow: 0px 0px 6px brown;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color: #00ff40;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -78,7 +76,7 @@
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-linear-gradient(left, #d6e1ff, #ffffff);
 	background-image: linear-gradient(left, #d6e1ff, #ffffaa);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
@@ -88,7 +86,7 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: black;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
